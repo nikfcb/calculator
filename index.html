@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>CALCULATOR</h1>
+    <div class="container">
+      <div class="screen">
+        <div id="history"></div>
+        <div id="input"></div>
+      </div>
+
+      <div class="digits">
+        <button
+          class="clear"
+          data-action="clear"
+          type="button"
+          value="C"
+          name="clear"
+        >
+          C
+        </button>
+        <button class="operator" type="button" name="perc">%</button>
+
+        <button class="operand" type="button" name="one">1</button>
+        <button class="operand" type="button" name="two">2</button>
+        <button class="operand" type="button" name="three">3</button>
+        <button class="operand" type="button" name="four">4</button>
+        <button class="operand" type="button" name="five">5</button>
+        <button class="operand" type="button" name="six">6</button>
+        <button class="operand" type="button" name="seven">7</button>
+        <button class="operand" type="button" name="eight">
+          8
+        </button>
+        <button class="operand" type="button" name="nine">9</button>
+
+        <button class="operator" type="button" value="-" name="sub">-</button>
+        <button class="operator" type="button" value="*" name="mul">*</button>
+        <button class="operator" type="button" value="/" name="div">/</button>
+        <button class="operator" id="plus" type="button" value="+" name="plus">
+          +
+        </button>
+        <button class="dots" type="button" value="." name="dot">.</button>
+        <button class="operand" id="zero" type="button" name="zero">
+          0
+        </button>
+        <button class="equals" type="button" value="=" name="equal">=</button>
+      </div>
+    </div>
+
+    <script src="cal.js"></script>
+  </body>
+</html>
